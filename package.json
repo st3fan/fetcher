@@ -1,0 +1,36 @@
+{
+  "name": "fetcher",
+  "version": "0.0.1",
+  "main": "fetcher.js",
+  "license": "MPL-2.0",
+  "homepage": "https://github.com/st3fan/fetcher",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/st3fan/fetcher.git"
+  },
+  "dependencies": {
+    "async-limiter": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "got": "^10.2.1",
+    "ioredis": "^4.14.1",
+    "user-agents": "^1.0.497",
+    "uuid": "^3.3.3"
+  },
+  "scripts": {
+    "start": "nodemon fetcher.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1"
+  }
+}
